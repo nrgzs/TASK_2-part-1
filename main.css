@@ -1,11 +1,22 @@
-img {
-  width: 150px;
-}
+/* // Small devices
+@media (max-width: 576px) { ... }
+
+// Medium devices
+@media (max-width: 767px) { ... }
+
+// Large devices
+@media (max-width: 991px) { ... }
+
+*/
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: content-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
@@ -21,12 +32,19 @@ img {
 
 .name_container {
   margin-left: 20px;
+  font-size: 20px;
 }
 
 .nav_list {
   display: flex;
   justify-content: space-between;
   list-style: none;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar {
+    flex-direction: column;
+  }
 }
 
 .nav_item {
@@ -49,12 +67,24 @@ img {
   height: 100vh;
 }
 
+@media screen and (max-width: 991px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
 .content {
   padding: 10px;
   background-color: #fff;
   font-size: 20px;
 
   margin-right: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .content {
+    font-size: 16px;
+  }
 }
 
 h2 {
@@ -68,7 +98,11 @@ h2 {
 .profile_img {
   float: left;
   margin-right: 20px;
+  width: 150px;
 }
+
+/* connect container */
+
 .connect_container {
   background-color: #fff;
   height: min-content;
@@ -76,7 +110,7 @@ h2 {
 }
 .connect {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .connect_img {
@@ -94,6 +128,20 @@ h2 {
 .portfolio_img {
   width: 200px;
   margin: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .portfolio_img {
+    width: 180px;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .portfolio_img {
+    width: 120px;
+    margin: 5px;
+  }
 }
 
 /* CONTACT */
