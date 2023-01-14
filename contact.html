@@ -8,7 +8,7 @@
     <title>portfolio page</title>
   </head>
   <body>
-    <header class="header">
+    <header>
       <nav class="navbar">
         <div class="name_container">your name</div>
         <ul class="nav_list">
@@ -24,55 +24,59 @@
         </ul>
       </nav>
     </header>
-    <div class="content">
-      <h2>contact</h2>
-      <form action="#">
-        <label for="#name" class="form_label">name</label>
-        <input
-          id="name"
-          type="text"
-          class="form_input"
-          placeholder="name surname"
-        />
-        <label for="#email" class="form_label">email</label>
-        <input
-          id="email"
-          type="text"
-          class="form_input"
-          placeholder="name@email.com"
-        />
-        <label for="#message">message</label>
-        <textarea
-          id="#message"
-          cols="30"
-          rows="10"
-          class="form_input"
-        ></textarea>
-        <button class="form_btn">submit</button>
-      </form>
-    </div>
-    <div class="connect">
-      <h2>connect with me</h2>
-      <a href="#"
-        ><img
-          src="./img/geek-avatar.jpg"
-          alt="connect image"
-          class="connect_img"
-      /></a>
-      <a href="#"
-        ><img
-          src="./img/lady-avatar-2.jpg"
-          alt="connect image"
-          class="connect_img"
-      /></a>
+    <main class="container">
+      <div class="content">
+        <h2>contact</h2>
+        <form action="#">
+          <label for="#name" class="form_label">name</label>
+          <input
+            id="name"
+            type="text"
+            class="form_input"
+            placeholder="name surname"
+          />
+          <label for="#email" class="form_label">email</label>
+          <input
+            id="email"
+            type="text"
+            class="form_input"
+            placeholder="name@email.com"
+          />
+          <label for="#message" class="form_label">message</label>
+          <textarea
+            id="#message"
+            cols="30"
+            rows="10"
+            class="form_input"
+          ></textarea>
+          <button class="form_btn">submit</button>
+        </form>
+      </div>
+      <div class="connect_container">
+        <h2>connect with me</h2>
+        <div class="connect">
+          <a href="#"
+            ><img
+              src="./img/geek-avatar.jpg"
+              alt="connect image"
+              class="connect_img"
+          /></a>
+          <a href="#"
+            ><img
+              src="./img/lady-avatar-2.jpg"
+              alt="connect image"
+              class="connect_img"
+          /></a>
 
-      <a href="#"
-        ><img
-          src="./img/lady-avatar.jpg"
-          alt="connect image"
-          class="connect_img"
-      /></a>
-    </div>
+          <a href="#"
+            ><img
+              src="./img/lady-avatar.jpg"
+              alt="connect image"
+              class="connect_img"
+          /></a>
+        </div>
+      </div>
+    </main>
     <footer>Copyright &copy</footer>
   </body>
 </html>

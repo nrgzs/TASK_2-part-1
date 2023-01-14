@@ -1,3 +1,128 @@
 img {
   width: 150px;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.navbar {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 10px;
+  border-bottom: 2px solid red;
+}
+
+.name_container {
+  margin-left: 20px;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav_item {
+  display: block;
+  padding: 10px;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url(./img/cement-texture.jpg);
+  background-size: cover;
+  padding: 20px;
+
+  height: 100vh;
+}
+
+.content {
+  padding: 10px;
+  background-color: #fff;
+  font-size: 20px;
+
+  margin-right: 20px;
+}
+
+h2 {
+  color: red;
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+.profile_img {
+  float: left;
+  margin-right: 20px;
+}
+.connect_container {
+  background-color: #fff;
+  height: min-content;
+  padding: 10px;
+}
+.connect {
+  display: flex;
+  justify-content: space-between;
+}
+
+.connect_img {
+  width: 60px;
+  margin: 5px;
+}
+
+/* PORTFOLIO */
+
+.portfolio_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio_img {
+  width: 200px;
+  margin: 10px;
+}
+
+/* CONTACT */
+
+.form_input {
+  width: 100%;
+
+  margin-bottom: 16px;
+}
+
+.form_label {
+  font-size: 20px;
+}
+
+.form_btn {
+  padding: 10px 20px;
+  background-color: red;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.form_btn:hover {
+  background-color: #000;
+}
+
+footer {
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  border-top: 2px solid red;
+  text-align: center;
+}
